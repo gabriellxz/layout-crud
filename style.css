@@ -9,9 +9,9 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 100vh;
     display: flex;
     background-color: #d0c7ff;
-    padding: 30px;
 }
 
 /*FORM*/
@@ -23,6 +23,10 @@ form {
     padding: 18px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px #aaaaaa;
+}
+
+.section-form {
+    padding: 30px;
 }
 
 /* form, h1 {
@@ -42,6 +46,7 @@ form {
 .container-input {
     width: 100%;
 }
+
 .input {
     width: 100%;
     height: 30px;
@@ -56,7 +61,7 @@ form {
 }
 
 .input:hover {
-    border:  2px solid #0086ef;
+    border: 2px solid #0086ef;
 }
 
 .btn-add {
@@ -99,4 +104,29 @@ form {
         border-radius: 4px;
         transition: all 0.5s;
     }
+}
+
+/*TABLE*/
+table {
+    text-align: center;
+    background-color: #e2e2e2;
+    width: 100%;
+    max-width: 800px;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #aaaaaa;
+}
+
+tbody {
+    background-color: #aaaaaa;
+    color: #fff;
+}
+
+tbody td {
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.section-table {
+    padding: 30px;
 }

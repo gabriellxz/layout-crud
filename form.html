@@ -9,18 +9,48 @@
 </head>
 
 <body>
-    <form>
-        <!-- <h1>Produtos</h1> -->
-        <div class="container-form">
-            <div class="container-input">
-                <input type="text" name="nome" placeholder="Digite o nome do produto" class="input">
-            </div>
-            <div class="container-input">
-                <input type="number" name="valor" placeholder="Digite o valor do produto" class="input">
-            </div>
-            <button class="btn-add">Adicionar</button>
-        </div>
-    </form>
+    <main>
+        <section class="section-form">
+            <form>
+                <!-- <h1>Produtos</h1> -->
+                <div class="container-form">
+                    <div class="container-input">
+                        <input type="text" name="nome" placeholder="Digite o nome do produto" class="input">
+                    </div>
+                    <div class="container-input">
+                        <input type="number" name="quantidade" placeholder="Quantidade" class="input">
+                    </div>
+                    <div class="container-input">
+                        <input type="number" name="valor" placeholder="Digite o valor do produto" class="input">
+                    </div>
+                    <button class="btn-add">Adicionar</button>
+                </div>
+            </form>
+        </section>
+        <section class="section-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Quantidade</th>
+                        <th>Valor do produto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Computador</td>
+                        <td>3</td>
+                        <td>R$ 10.000</td>
+                    </tr>
+                    <tr>
+                        <td>Computador</td>
+                        <td>3</td>
+                        <td>R$ 10.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
 </body>
 
 </html>
